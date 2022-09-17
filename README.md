@@ -18,7 +18,7 @@ python3 -m venv venv
 ```
 4. Активируйте виртуальное окружение командой:
 ```
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 5. Установите все необходимые зависимости командой:
 ```
@@ -30,16 +30,16 @@ cd yatube/
 ```
 8. Выполните миграции командой:
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 9. Создайте суперпользователя командой:
 ```
-python3 manage.py createsuperuser
+python manage.py createsuperuser
 ```
 #### Запустить проект:
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 Проект запущен и доступен по адресу [localhost:8000](http://localhost:8000/).
